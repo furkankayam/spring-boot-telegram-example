@@ -26,6 +26,7 @@ repositories {
 ext {
     springdocVersion = '2.8.0'
     telegramBotVersion = '6.9.7.0'
+    apacheCommonsVersion = '3.14.0'
 }
 
 dependencies {
@@ -36,7 +37,7 @@ dependencies {
     implementation "org.telegram:telegrambots-spring-boot-starter:${telegramBotVersion}"
 
     // --- Apache Commons ---
-    implementation 'org.apache.commons:commons-lang3:3.14.0'
+    implementation "org.apache.commons:commons-lang3:${apacheCommonsVersion}"
 
     // --- Lombok ---
 	compileOnly 'org.projectlombok:lombok'
