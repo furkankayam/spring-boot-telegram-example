@@ -1,0 +1,11 @@
+# Application Config
+spring:
+  application:
+    name: spring-boot-telegram
+
+# Telegram Config
+bot:
+  name: MySpringBootCoffeeBot
+  token: 8791033332:AAEQeA37dHodSoVsxKOIUi0LIlSGZXr1JFs
+  chat-ids-file: chat-ids.txt
+  # chat-id: 8476353218
